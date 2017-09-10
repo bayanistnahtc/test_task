@@ -1,6 +1,11 @@
 Siple node.js project.
 using hapi framework
 
-mplugins: 
-1. Static file and directory handlers plugin for hapi.js.
-inert provides new handler methods for serving static files and directories, as well as decorating the reply interface with a file method for serving file based resources.
+1. Поставь на свой компьютер Node.js
+2. Поставь Hapi.js
+3. Cделай простой Hapi сервер, который:
+    1. по пути / возвращает статическую HTML страницу с кнопкой
+    2. по пути /api находится GET endpoint который возвращает JSON объект {“text”: “foo”}
+4. Страница должна по нажатию кнопки дергать вышеупомянутый endpoint и показывать текст из JSON под кнопкой
+5. Проект залей к себе на Гитхаб.
+
